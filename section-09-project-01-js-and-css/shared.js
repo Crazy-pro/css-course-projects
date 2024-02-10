@@ -5,9 +5,14 @@ const selectPlanButtons = document.querySelectorAll('.plan button')
 const toggleButton = document.querySelector('.toggle-button')
 const mobileNav = document.querySelector('.mobile-nav')
 
-for (const i = 0; i < selectPlanButtons.length; i++) {
+// console.dir(backdrop.style['background-image'])
+// console.dir(backdrop.style.backgroungImage)
+
+for (let i = 0; i < selectPlanButtons.length; i++) {
     selectPlanButtons[i].addEventListener('click', function () {
-        backdrop.classList.add('open')
+        if (modal) {
+            backdrop.classList.add('open')
+        }
         modal.classList.add('open')
     })
 }
@@ -17,11 +22,15 @@ backdrop.addEventListener('click', function () {
     closeModal()
 })
 
-modalNoButton.addEventListener('click', closeModal)
+if (modalNoButton) {
+    modalNoButton.addEventListener('click', closeModal)
+}
 
 function closeModal() {
+    if (modal) {
+        modal.classList.remove('open')
+    }
     backdrop.classList.remove('open')
-    modal.classList.remove('open')
 }
 
 toggleButton.addEventListener('click', function () {
