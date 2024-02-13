@@ -4,7 +4,6 @@
     #ff1b68;
   width: 100vw;
   height: 33vh;
-  margin-top: 2.75rem;
   position: relative;
 }
 
@@ -15,17 +14,6 @@
   bottom: 5%;
   left: 3%;
   font-size: 1.6rem;
-}
-
-@media(min-width: 40rem){
-  #product-overview {
-    background-position: 50% 25%;
-    height: 40vh;
-  }
-
-  #product-overview h1 {
-    font-size: 3rem;
-  }
 }
 
 .section-title {
@@ -44,25 +32,6 @@
 .plan--highlighted {
   background: #19b84c;
   color: white;
-}
-
-@media(min-width: 40rem){
-  .plan__list {
-    width: 100%;
-    text-align: center;
-  }
-
-  #plan {
-    display: inline-block;
-    vertical-align: middle;
-    min-width: 13rem;
-    max-width: 25rem;
-    width: 30%;
-  }
-
-  .plan--highlighted {
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-  }
 }
 
 .plan__annotation {
@@ -115,15 +84,6 @@
   margin: 0;
   padding: 0;
   text-align: center;
-}
-
-@media(min-width: 40rem){
-  .key-feature {
-    display: inline-block;
-    width: 30%;
-    max-width: 25rem;
-    vertical-align: top;
-  }
 }
 
 .key-feature__image {
@@ -190,4 +150,43 @@
 .modal__action--negative:active {
   background: #ff5454;
   border-color: #ff5454;
+}
+
+@media (min-width: 40rem) and (min-height: 40rem) {
+  #product-overview {
+    background-position: 50% 25%;
+    height: 40vh;
+  }
+
+  #product-overview h1 {
+    font-size: 3rem;
+  }
+}
+
+@media(min-width: 40rem){
+  .plan__list {
+    width: 100%;
+    text-align: center;
+  }
+
+  #plan {
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 13rem;
+    max-width: 25rem;
+    width: 30%;
+  }
+
+  .plan--highlighted {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media (min-width: 40rem) {
+  .key-feature {
+    display: inline-block;
+    width: 30%;
+    max-width: 25rem;
+    vertical-align: top;
+  }
 }
