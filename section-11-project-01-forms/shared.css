@@ -219,7 +219,7 @@ main {
 }
 
 .open {
-    display: block !important;
+  display: block !important;
 }
 
 @media (min-width: 40rem) {
