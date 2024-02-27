@@ -71,6 +71,10 @@ main {
     font-weight: 900;
     /* font-style: italic; */
     /* line-height: 2; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: underline wavy green; */
+    text-decoration: underline dotted red;
 }
 
 .clearfix {
