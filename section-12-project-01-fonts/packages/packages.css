@@ -74,7 +74,8 @@ main {
     /* text-decoration: overline; */
     /* text-decoration: line-through; */
     /* text-decoration: underline wavy green; */
-    text-decoration: underline dotted red;
+    /* text-decoration: underline dotted red; */
+    text-shadow: 5px 5px 2px gray;
 }
 
 .clearfix {
