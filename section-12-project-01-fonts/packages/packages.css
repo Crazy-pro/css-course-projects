@@ -64,18 +64,21 @@ main {
 .package__info {
     padding: 1rem;
     border: 1px solid #0e4f1f;
-    font-size: 1.2rem;
+    /* font-weight: 900; */
+    /* font-size: 1.2rem; */
+    /* font-family: "Roboto", sans-serif; */
     color: #0e4f1f;
     background: white;
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
     /* font-style: italic; */
     /* line-height: 2; */
     /* text-decoration: overline; */
     /* text-decoration: line-through; */
     /* text-decoration: underline wavy green; */
     /* text-decoration: underline dotted red; */
-    text-shadow: 5px 5px 2px gray;
+    /* text-shadow: 5px 5px 2px gray; */
+    /* font: startup-bar; */
+    font: italic small-caps 700 1.2rem "Roboto", sans-serif;
+    /* font: font-style font-variant font-weight font-size/line-height font-family; */
 }
 
 .clearfix {
