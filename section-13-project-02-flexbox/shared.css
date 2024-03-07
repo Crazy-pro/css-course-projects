@@ -66,13 +66,11 @@ main {
   color: #0e4f1f;
   text-decoration: none;
   font-weight: bold;
-  /* width: 20px; */
 }
 
 .main-header__brand img {
   height: 2.5rem;
   vertical-align: middle;
-  /* width: 100%; */
 }
 
 .main-nav {
@@ -127,10 +125,6 @@ main {
   }
 
   .main-nav {
-    /*display: inline-block;
-    text-align: right;
-    width: calc(100% - 44px);
-    vertical-align: middle;*/
     display: flex;
   }
 }
@@ -145,12 +139,13 @@ main {
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-footer__link {
-  display: block;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
 }
 
 .main-footer__link a {
@@ -228,7 +223,11 @@ main {
 
 @media (min-width: 40rem) {
   .main-footer__link {
-    display: inline-block;
     margin: 0 1rem;
+  }
+
+  .main-footer__links {
+    flex-direction: row;
+    align-items: center;
   }
 }
