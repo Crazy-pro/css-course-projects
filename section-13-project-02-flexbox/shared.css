@@ -34,7 +34,7 @@ main {
   left: 0;
   background: #2ddf5c;
   padding: 0.5rem 1rem;
-  z-index: 1;
+  z-index: 60;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -66,11 +66,13 @@ main {
   color: #0e4f1f;
   text-decoration: none;
   font-weight: bold;
+  /* width: 20px; */
 }
 
 .main-header__brand img {
   height: 2.5rem;
   vertical-align: middle;
+  /* width: 100%; */
 }
 
 .main-nav {
@@ -228,6 +230,6 @@ main {
 
   .main-footer__links {
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
   }
 }
