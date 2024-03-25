@@ -9,6 +9,7 @@
     font-family: "AnonymousPro";
     src: url("anonymousPro-Bold.ttf") format("truetype");
     font-weight: 700;
+    /* font-display: optional; */
 }
 
 main {
@@ -65,7 +66,7 @@ main {
     padding: 1rem;
     border: 1px solid #0e4f1f;
     /* font-weight: 900; */
-    /* font-size: 1.2rem; */
+    font-size: 1.2rem;
     /* font-family: "Roboto", sans-serif; */
     color: #0e4f1f;
     background: white;
@@ -77,7 +78,7 @@ main {
     /* text-decoration: underline dotted red; */
     /* text-shadow: 5px 5px 2px gray; */
     /* font: startup-bar; */
-    font: italic small-caps 700 1.2rem "Roboto", sans-serif;
+    /* font: italic small-caps 700 1.2rem "Roboto", sans-serif; */
     /* font: font-style font-variant font-weight font-size/line-height font-family; */
 }
 
