@@ -9,6 +9,7 @@ HTML &amp; CSS Bootcamp Projects are a set of simple demo projects from 'CSS - T
 
 
 ### Technologies:
+- Programming languages: JavaScript;
 - IDE: Visual Studio Code;
-- Tools: HTML, CSS, NPM, Git, HTTPs, XML, YAML, JSON;
+- Tools: HTML, CSS, SASS, NPM, Git, HTTPs, XML, YAML, JSON;
 - Others: GitHub, Prettier, ESLint.
